@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # Use Ubuntu image from Aliyun
 RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list && \
